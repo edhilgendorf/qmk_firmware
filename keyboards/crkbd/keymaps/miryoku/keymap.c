@@ -19,6 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 #include "g/keymap_combo.h"
 
+
 //enum layer_names {
 //    _BASE,
 //    _SUPER,
@@ -44,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                         KC_Y,    KC_U,    KC_I,    KC_O,   KC_P,  KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
 //      KC_LCTL,    MT(MOD_LGUI, KC_A),    KC_S,    MT(MOD_LCTL, KC_D),    MT(MOD_LSFT, KC_F),    KC_G,                         KC_H,    MT(MOD_LSFT, KC_J),    MT(MOD_LCTL, KC_K),    MT(MOD_RALT, KC_L), MT(MOD_LGUI, KC_SCLN), KC_QUOT,
-      KC_LCTL,    MT(MOD_LGUI, KC_A),    MT(MOD_LALT, KC_S),    MT(MOD_LCTL, KC_D),    MT(MOD_LSFT, KC_F),    KC_G,                         KC_H,    MT(MOD_LSFT, KC_J),    MT(MOD_LCTL, KC_K),    MT(MOD_RALT, KC_L), MT(MOD_LGUI, KC_SCLN), KC_QUOT,
+      KC_LCTL,    MT(MOD_LGUI, KC_A),    MT(MOD_LALT, KC_S),    MT(MOD_LCTL, KC_D),    MT(MOD_LSFT, KC_F),    KC_G,                         KC_H,    MT(MOD_RSFT, KC_J),    MT(MOD_LCTL, KC_K),    MT(MOD_RALT, KC_L), MT(MOD_LGUI, KC_SCLN), KC_QUOT,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,  KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|

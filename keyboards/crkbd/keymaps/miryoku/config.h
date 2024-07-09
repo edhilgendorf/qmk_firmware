@@ -33,6 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define COMBO_COUNT 1 // Change this number.
 #define COMBO_VARIABLE_LEN
 #define COMBO_TERM 50
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING
